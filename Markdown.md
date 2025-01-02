@@ -27,3 +27,17 @@ I wrote this Bash script to generate multiplication tables for a user-defined nu
 
 7. **Customization:**
    - By allowing the user to choose the order (ascending or descending) and whether they want a full or partial table, I feel like I’ve given them the flexibility to customize the multiplication table to their needs.
+
+### Script Structure
+
+1. **User Input Section:**
+    - The script starts by asking the user to input a number. I then follow up by asking if they want the table in ascending or descending order, which I think adds a simple layer of interaction. Lastly, I let them decide between a full or partial table.
+
+2. **Conditional Logic for Full or Partial Table:**
+    - Based on the user’s choice, I use an if statement to determine whether to generate a full table or a partial one. If the user opts for a partial table, I ask for the start and end values, validate them, and then proceed to generate the multiplication table for that range. I think this is an important aspect of the script because it ensures the user gets a result that matches their request.
+
+3.  **Loop Implementation:**
+    - For both loop types, I calculate the multiplication and display the result. I wanted to demonstrate the difference between the two loop styles while keeping the logic consistent. The list form loop is straightforward, and the C-style loop provides more flexibility. Both loops work well for the ascending and descending orders.
+
+4.  **End Results:**
+    - Depending on the user’s choices (order and table type), the script outputs the correct multiplication table. The output is formatted in a way that’s easy to read and follow.
